@@ -74,6 +74,19 @@ body{
 .header .menu > ul > li > i{
  right: 0;
 }
+.header .menu .sub-menu{
+ position: absolute;
+ top: 100%;
+ left:0;
+ width: 230px;
+ padding: 15px 0;
+ background-color: hsl(229,54%,51%);
+ box-shadow: 0 0 5px hsla(0,0%,0%,0.5);
+ z-index:1;
+}
+.header .menu .sub-menu a{
+ padding:6px 24px;
+}
 /* hero */
 .hero{
   min-height: 100vh;
