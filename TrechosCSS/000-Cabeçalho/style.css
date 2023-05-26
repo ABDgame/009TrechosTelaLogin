@@ -87,6 +87,20 @@ body{
 .header .menu .sub-menu a{
  padding:6px 24px;
 }
+.header .menu .sub-menu .dropdown >a{
+  padding-right: 34px;
+}
+.header .menu. sub-menu span{
+  background-image: linear-gradient(hsl(0,0%,100%));
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.5s ease;
+}
+.header .menu .sub-menu i{
+  transform: rotate(-90deg);
+  right: 24px;
+}
 /* hero */
 .hero{
   min-height: 100vh;
