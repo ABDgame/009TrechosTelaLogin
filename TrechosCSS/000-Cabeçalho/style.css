@@ -97,6 +97,9 @@ body{
   background-position: 0 100%;
   transition: background-size 0.5s ease;
 }
+.header .menu .sub-menu li:hover > a > span{
+  background-size: 100% 1px;
+}
 .header .menu .sub-menu i{
   transform: rotate(-90deg);
   right: 24px;
