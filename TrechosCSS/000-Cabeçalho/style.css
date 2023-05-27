@@ -83,6 +83,20 @@ body{
  background-color: hsl(229,54%,51%);
  box-shadow: 0 0 5px hsla(0,0%,0%,0.5);
  z-index:1;
+ transform-origin:top;
+ transform: scaleY(0);
+ visibility: hidden;
+ opacity:0;
+}
+.header .menu .sub-menu-right{
+  left: 100%;
+  top: 0;
+}
+.header .menu li:hover > .sub-menu{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  transition: all 0.5s ease;
 }
 .header .menu .sub-menu a{
  padding:6px 24px;
