@@ -1,1 +1,2 @@
-
+-- Insert firts two entries into tabela funcionários
+-- Set the fornecedores_id
