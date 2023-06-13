@@ -15,8 +15,10 @@ CREATE TABLE lojas{
    cidade_id INT
 };
 
+--Add chave primária para tabela fornecedores
 CREATE TABLE fornecedores{
    fornecedor_id INT PRIMARY KEY,
    nome_fornecedor VARCHAR(50),
    tipo_produto VARCHAR(50)
 };
+
