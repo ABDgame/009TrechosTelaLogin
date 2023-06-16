@@ -49,7 +49,7 @@ section .signin .content
 section .signin .content h2
 {
   font-size: 2em;
-  color:#0f0;
+  color:#000fff;
   text-transform:uppercase;
  }
 section .signin .content. form
@@ -60,3 +60,51 @@ section .signin .content. form
   gap: 25px;
 }
 section .signin .content .form .inputBx
+{
+  position: relative;
+  width:100%;
+}
+section .signin .content .form .inputBx input
+{
+  position:relative;
+  width:100%;
+  background: #333;
+  border: none;
+  outline:none;
+  padding: 25px 10px 7.5px;
+  border-radius: 4px;
+  color:#fff;
+  font-weight: 500;
+  font-size: 1em;
+}
+section .signin .content .form .inputBx i
+{
+  position: absolute;
+  left:0;
+  padding:15px 10px;
+  font-style:normal;
+  color:#aaa;
+  transition:0.5s;
+  pointer-events: none; 
+}
+.signin .content .form .inputBx input:focus ~ i,
+.signin .content .form .inputBx input:valid ~ i
+{
+  transform: translateY(-7.5px);
+  font-size:0.8em;
+  color:#fff;  
+}
+.signin .content .form .links
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.signin .content .form .links a:
+{
+  color: #fff;
+  text-decoration: none;
+}
+.signin .content .form .links a:nth-child(2)
+
