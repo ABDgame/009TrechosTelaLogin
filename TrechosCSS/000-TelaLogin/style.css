@@ -22,7 +22,18 @@ section
   display:flex;
   justify-content:center;
   align-items:center;
+  gap:2px;
 }
+section span
+{
+  position: relative;
+  display:block;
+  width:calc(6.25vw - 2px);
+  height:calc(6.25vw - 2px);
+  background:#181818;
+  z-index:2;
+}
+
 section .signin
 {
   position:absolute;
@@ -121,3 +132,4 @@ section .signin .content .form .inputBx i
   letter-spacing:0.05em;
   cursor:pointer;
 }
+
