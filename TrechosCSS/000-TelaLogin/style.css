@@ -107,4 +107,17 @@ section .signin .content .form .inputBx i
   text-decoration: none;
 }
 .signin .content .form .links a:nth-child(2)
-
+{
+  color:#000fff;
+  font-weigth: 600;
+}
+.signin .content .form .inputBx input[type="submit"]
+{
+  padding:10px;
+  background:#000fff;
+  color:#111;
+  font-weight:600;
+  font-size:1.25em;
+  letter-spacing:0.05em;
+  cursor:pointer;
+}
