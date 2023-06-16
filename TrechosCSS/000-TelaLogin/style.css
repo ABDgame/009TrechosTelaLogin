@@ -23,6 +23,7 @@ section
   justify-content:center;
   align-items:center;
   gap:2px;
+  flex-wrap:wrap;
 }
 section span
 {
