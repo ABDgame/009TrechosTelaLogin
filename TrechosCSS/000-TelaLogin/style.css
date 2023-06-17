@@ -137,13 +137,17 @@ section .signin .content .form .inputBx i
 @media (max-width:900px)
 {
   section span
+  {
+  width:calc(10vw - 2px) ;
+  height:calc(10vw - 2px) ;
+  }
+}
+@media (max-width:600px)
 {
-  position:relative;
-  display:block;
-  width:calc(6.25₩) ;
-  height:calc() ;
-  background: #181818;
-  z-index:2;
+  section span
+  {
+  width:calc(20vw - 2px) ;
+  height:calc(20vw - 2px) ;
   }
 }
 
