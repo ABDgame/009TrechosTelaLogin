@@ -24,6 +24,7 @@ section
   align-items:center;
   gap:2px;
   flex-wrap:wrap;
+  overflow:hidden;
 }
 section span
 {
@@ -132,5 +133,17 @@ section .signin .content .form .inputBx i
   font-size:1.25em;
   letter-spacing:0.05em;
   cursor:pointer;
+}
+@media (max-width:900px)
+{
+  section span
+{
+  position:relative;
+  display:block;
+  width:calc(6.25₩) ;
+  height:calc() ;
+  background: #181818;
+  z-index:2;
+  }
 }
 
