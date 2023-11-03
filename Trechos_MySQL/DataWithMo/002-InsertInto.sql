@@ -1,2 +1,0 @@
--- Insert firts two entries into tabela funcionários
--- Set the fornecedor_id to NULL for now as we have not inserted the 
